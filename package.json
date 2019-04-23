@@ -1,0 +1,30 @@
+{
+  "name": "stabikat-graphql-server",
+  "version": "0.1.0",
+  "description": "Sample implementation of a GraphQL server making use of the StaBiKat XML endpoint.",
+  "author": "Borries Jensen",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/plasmoit-protopoc/stabikat-graphql-server.git"
+  },
+  "homepage": "https://github.com/plasmoit-protopoc/stabikat-graphql-server",
+  "keywords": [
+    "graphql",
+    "stabikat"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/nodemon"
+  },
+  "dependencies": {
+    "apollo-server": "^2.4.8",
+    "axios": "^0.18.0",
+    "fast-xml-parser": "^3.12.14",
+    "graphql": "^14.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
